@@ -1,15 +1,15 @@
-## Nablarch Framework
+# Nablarch Framework
 
 Nablarch is a middleware pattern based Java application framework.
   
-## Modules
+# Modules
 The Nablarch Framework consists of features arganized into about 56 modules. These modules are grouped into Nablarch Core, Nablarch Framework, 
 Nablarch Common Component, Nablarch Extension Component, Nablarch Adaptor, Misc, as shown in the following tables.
 
-#### Nablarch Core
+### Nablarch Core
 
 |Module name|Description
-|-----|-----
+|:-----|:-----
 |[nablarch-core](https://github.com/nablarch/nablarch-core)|Nablarch Core
 |[nablarch-core-beans	        ](https://github.com/nablarch/nablarch-core-beans	        )|JavaBeans Utilities
 |[nablarch-core-repository	](https://github.com/nablarch/nablarch-core-repository	    )|Settings manager
@@ -21,11 +21,11 @@ Nablarch Common Component, Nablarch Extension Component, Nablarch Adaptor, Misc,
 |[nablarch-core-dataformat	](https://github.com/nablarch/nablarch-core-dataformat	    )|File manager
 |[nablarch-core-applog	    ](https://github.com/nablarch/nablarch-core-applog	        )|Logging
 
-#### Nablarch Framework
+### Nablarch Framework
 
 
 |Module name|Description
-|-----|-----
+|:-----|:-----
 |[nablarch-fw	](https://github.com/nablarch/nablarch-fw	)|	Nablarch Handlers
 |[nablarch-fw-web	](https://github.com/nablarch/nablarch-fw-web	)|	Basic web-oriented integration features
 |[nablarch-fw-web-dbstore	](https://github.com/nablarch/nablarch-fw-web-dbstore	)|	Session store implementation using JDBC
@@ -40,11 +40,11 @@ Nablarch Common Component, Nablarch Extension Component, Nablarch Adaptor, Misc,
 |[nablarch-fw-messaging-http	](https://github.com/nablarch/nablarch-fw-messaging-http	)|	HTTP Messaging
 |[nablarch-fw-messaging-mom	](https://github.com/nablarch/nablarch-fw-messaging-mom	)|	MOM Messaging
 
-#### Nablarch Common Component
+### Nablarch Common Component
 
 
 |Module name|Description
-|-----|-----
+|:-----|:-----
 |[nablarch-common-dao	](https://github.com/nablarch/nablarch-common-dao	)|	Generating SQL from Entity classes
 |[nablarch-common-idgenerator	](https://github.com/nablarch/nablarch-common-idgenerator	)|	ID generators
 |[nablarch-common-idgenerator-jdbc	](https://github.com/nablarch/nablarch-common-idgenerator-jdbc	)|	ID generators implementation using JDBC
@@ -60,30 +60,30 @@ Nablarch Common Component, Nablarch Extension Component, Nablarch Adaptor, Misc,
 |[nablarch-common-databind	](https://github.com/nablarch/nablarch-common-databind	)|	Supporting various data types in Java Beans, Collection Framework like Map, List, etc.
 |[nablarch-mail-sender	](https://github.com/nablarch/nablarch-mail-sender	)|	E-mail
 
-#### Nablarch Extension Component
+### Nablarch Extension Component
 
 
 |Module name|Description
-|-----|-----
+|:-----|:-----
 |[nablarch-etl	](https://github.com/nablarch/nablarch-etl	)|	ETL processing
 |[nablarch-etl-maven-plugin	](https://github.com/nablarch/nablarch-etl-maven-plugin	)|	Generating ETL processing config 
 
 
-#### Nablarch Adaptor
+### Nablarch Adaptor
 
 
 |Module name|Description
-|-----|-----
+|:-----|:-----
 |[nablarch-router-adaptor](https://github.com/nablarch/nablarch-router-adaptor)|Adaptor for http-request-router
 |[nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)|Adaptor for Adaptors for JAX-RS impls
 |[nablarch-wmq-adaptor](https://github.com/nablarch/nablarch-wmq-adaptor)|Adaptor for WebSphere MQ 
 |[nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)|Adaptor for Log4j
 
-#### Misc
+### Misc
 
 
 |Module name|Description
-|-----|-----
+|:-----|:-----
 |[nablarch-backward-compatibility	](https://github.com/nablarch/nablarch-backward-compatibility	)|	Assuring Nablarch's old version compatibility
 |[master	](https://github.com/nablarch/master	)|	Integrating several Gradle projects for developers
 |[nablarch-all-test	](https://github.com/nablarch/nablarch-all-test	)|	JUnit Tests for Nablarch
@@ -98,5 +98,5 @@ Nablarch Common Component, Nablarch Extension Component, Nablarch Adaptor, Misc,
 |[nablarch-single-module-archetype](https://github.com/nablarch/nablarch-single-module-archetype)|Maven archetype
 
 
-## License
+# License
 Nablarch is released under the terms of the Apache Software License Version 2.0 (see LICENSE.txt).
