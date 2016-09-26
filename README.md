@@ -99,4 +99,4 @@ Nablarch Common Component, Nablarch Extension Component, Nablarch Adaptor, Misc,
 
 
 # License
-Nablarch is released under the terms of the Apache Software License Version 2.0 (see LICENSE.txt).
+Nablarch is released under the terms of the Apache Software License Version 2.0 (see [LICENSE.txt](https://github.com/nablarch/nablarch/blob/master/LICENSE.txt)).
