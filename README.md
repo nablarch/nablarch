@@ -110,18 +110,10 @@ as shown in the following tables.
 
 |Module name|Description
 |:-----|:-----
-|[nablarch-biz-sample-all                  ](https://github.com/nablarch/nablarch-biz-sample-all)|Sample applications as follows
-                                                                                                  * Password authentication
-                                                                                                  * Extension of Validation
-                                                                                                  * Search result
-                                                                                                  * Extension of Data Formatter
-                                                                                                  * File management with database
-                                                                                                  * Captcha
-                                                                                                  * Prepare user agent
-                                                                                                  * HTML mail sending 
+|[nablarch-biz-sample-all                  ](https://github.com/nablarch/nablarch-biz-sample-all)|Sample applications as follows <br>  * Password authentication <br>  * Extension of Validation <br>  * Search result <br>  * Extension of Data Formatter <br>  * File management with database <br>  * Captcha <br>  * Prepare user agent <br>  * HTML mail sending
 |[nablarch-smime-integration                  ](https://github.com/nablarch/nablarch-smime-integration)|Example of smime mail sending 
 |[nablarch-statistics-report                  ](https://github.com/nablarch/nablarch-statistics-report)|Example of Log Aggregation
-|[nablarch-messaging-simulator                  ](https://github.com/nablarch/nablarch-example-web)|Example of messaging simulator (stub | driver)
+|[nablarch-messaging-simulator                  ](https://github.com/nablarch/nablarch-example-web)|Example of messaging simulator (stub or driver)
 
 
 
@@ -144,10 +136,10 @@ as shown in the following tables.
 |[nablarch-single-module-archetype](https://github.com/nablarch/nablarch-single-module-archetype)|Maven archetype
 |[nablarch-document](https://github.com/nablarch/nablarch-document)|Nablarch document sourcecode
 |[sql-executor](https://github.com/nablarch/sql-executor)|SQL Executor tool
-|[nablarch-ui-build-test-pj](https://github.com/nablarch/nablarch-ui-build-test-pj)|Maven archetype
-|[nablarch-plugins-bundle-test](https://github.com/nablarch/nablarch-plugins-bundle-test)|Maven archetype
-|[nablarch-plugins-bundle](https://github.com/nablarch/nablarch-plugins-bundle)|Maven archetype
-|[nablarch-ui-development-template](https://github.com/nablarch/nablarch-ui-development-template)|Maven archetype
+|[nablarch-ui-build-test-pj](https://github.com/nablarch/nablarch-ui-build-test-pj)|Test project for nablarch-plugins-bundle
+|[nablarch-plugins-bundle-test](https://github.com/nablarch/nablarch-plugins-bundle-test)|Test cases for nablarch-plugins-bundle
+|[nablarch-plugins-bundle](https://github.com/nablarch/nablarch-plugins-bundle)|Framework for web application with easy development
+|[nablarch-ui-development-template](https://github.com/nablarch/nablarch-ui-development-template)|Template for using nablarch-plugins-bundle
 |[nablarch-gradle-plugin](https://github.com/nablarch/nablarch-gradle-plugin)|Gradle plugin for projects using Nablarch
 
 
