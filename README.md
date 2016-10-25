@@ -75,7 +75,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |Module name|Description
 |:-----|:-----
 |[nablarch-router-adaptor](https://github.com/nablarch/nablarch-router-adaptor)|Adaptor for http-request-router
-|[nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)|Adaptor for Adaptors for JAX-RS impls
+|[nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)|Adaptors for JAX-RS impls
 |[nablarch-wmq-adaptor](https://github.com/nablarch/nablarch-wmq-adaptor)|Adaptor for WebSphere MQ 
 |[nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)|Adaptor for Log4j
 
