@@ -4,7 +4,7 @@ Nablarch is a middleware pattern based Java application framework.
   
 # Modules
 The Nablarch Framework consists of features organized into about 83 modules. These modules are grouped into [Nablarch Core](#link1), [Nablarch Framework](#link2), 
-[Nablarch Common Component](#link3), [Nablarch Extension Component](#link4), [Nablarch Adaptor](#link5), [Nablarch Framework Examples](#link6), [Nablarch Workflow](#link7), 
+[Nablarch Common Component](#link3), [Nablarch Adaptor](#link4), [Nablarch Framework Examples](#link5), [Nablarch ETL Foundation](#link6), [Nablarch Workflow](#link7), 
 [Nablarch Report](#link8), [Nablarch Example Implementations](#link9), [Misc](#link10), as shown in the following tables.
 
 ### <a name ="link1">Nablarch Core
@@ -39,7 +39,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-fw-batch	](https://github.com/nablarch/nablarch-fw-batch	)|	Basic handlers and actions for batch application
 |[nablarch-fw-messaging	](https://github.com/nablarch/nablarch-fw-messaging	)|	Messaging architecture and protocols
 |[nablarch-fw-messaging-http	](https://github.com/nablarch/nablarch-fw-messaging-http	)|	HTTP Messaging
-|[nablarch-fw-messaging-mom	](https://github.com/nablarch/nablarch-fw-messaging-mom	)|	[MOM](https://en.wikipedia.org/wiki/Message-oriented_middleware) Messaging
+|[nablarch-fw-messaging-mom	](https://github.com/nablarch/nablarch-fw-messaging-mom	)|	MOM(Message Oriented Middleware) Messaging
 
 
 ### <a name ="link3">Nablarch Common Component
@@ -62,15 +62,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-mail-sender	](https://github.com/nablarch/nablarch-mail-sender	)|	E-mail
 
 
-### <a name ="link4">Nablarch Extension Component
-
-|Module name|Description
-|:-----|:-----
-|[nablarch-etl	](https://github.com/nablarch/nablarch-etl)|[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) processing
-|[nablarch-etl-maven-plugin	](https://github.com/nablarch/nablarch-etl-maven-plugin)|Generator of [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) processing config file 
-
-
-### <a name ="link5">Nablarch Adaptor
+### <a name ="link4">Nablarch Adaptor
 
 |Module name|Description
 |:-----|:-----
@@ -80,22 +72,30 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)|Adaptor for Log4j
 
 
-### <a name ="link6">Nablarch Framework Examples
+### <a name ="link5">Nablarch Framework Examples
 
 |Module name|Description
 |:-----|:-----
 |[nablarch-example-web                  ](https://github.com/nablarch/nablarch-example-web)|Example of web application
 |[nablarch-example-batch-ee             ](https://github.com/nablarch/nablarch-example-batch-ee)|Example of JSR352 jBatch APIs
 |[nablarch-example-batch                ](https://github.com/nablarch/nablarch-example-batch)|Example code of batch application
-|[nablarch-example-mom-sync-receive     ](https://github.com/nablarch/nablarch-example-mom-sync-receive)|Example of [MOM](https://en.wikipedia.org/wiki/Message-oriented_middleware) (synchronous messaging receiving)
-|[nablarch-example-mom-sync-send-batch  ](https://github.com/nablarch/nablarch-example-mom-sync-send-batch)|Example of [MOM](https://en.wikipedia.org/wiki/Message-oriented_middleware) (synchronous messaging sending)
-|[nablarch-example-mom-delayed-send     ](https://github.com/nablarch/nablarch-example-mom-delayed-send)|Example of [MOM](https://en.wikipedia.org/wiki/Message-oriented_middleware) (asynchronous messaging sending)
-|[nablarch-example-mom-delayed-receive  ](https://github.com/nablarch/nablarch-example-mom-delayed-receive)|Example of [MOM](https://en.wikipedia.org/wiki/Message-oriented_middleware) (asynchronous messaging receiving)
-|[nablarch-example-mom-testing-common   ](https://github.com/nablarch/nablarch-example-mom-testing-common)|Example of [MOM](https://en.wikipedia.org/wiki/Message-oriented_middleware) (common function)
+|[nablarch-example-mom-sync-receive     ](https://github.com/nablarch/nablarch-example-mom-sync-receive)|Example of MOM (synchronous messaging receiving)
+|[nablarch-example-mom-sync-send-batch  ](https://github.com/nablarch/nablarch-example-mom-sync-send-batch)|Example of MOM (synchronous messaging sending)
+|[nablarch-example-mom-delayed-send     ](https://github.com/nablarch/nablarch-example-mom-delayed-send)|Example of MOM (asynchronous messaging sending)
+|[nablarch-example-mom-delayed-receive  ](https://github.com/nablarch/nablarch-example-mom-delayed-receive)|Example of MOM (asynchronous messaging receiving)
+|[nablarch-example-mom-testing-common   ](https://github.com/nablarch/nablarch-example-mom-testing-common)|Example of MOM (common function)
 |[nablarch-example-http-messaging       ](https://github.com/nablarch/nablarch-example-http-messaging)|Example of HTTP Messaging (receiving)
 |[nablarch-example-http-messaging-send  ](https://github.com/nablarch/nablarch-example-http-messaging-send)|Example of HTTP Messaging (sending)
 |[nablarch-example-rest                 ](https://github.com/nablarch/nablarch-example-rest)|Example of RESTful Web Services
 |[nablarch-example-db-queue             ](https://github.com/nablarch/nablarch-example-db-queue)|Example of database as queue
+
+
+### <a name ="link6">Nablarch ETL Foundation
+
+|Module name|Description
+|:-----|:-----
+|[nablarch-etl	](https://github.com/nablarch/nablarch-etl)|ETL(Extract, transform, load) processing
+|[nablarch-etl-maven-plugin	](https://github.com/nablarch/nablarch-etl-maven-plugin)|Generator of ETL processing config file 
 
 
 ###  <a name ="link7">Nablarch Workflow
@@ -103,7 +103,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |Module name|Description
 |:-----|:-----
 |[nablarch-workflow                     ](https://github.com/nablarch/nablarch-workflow)|Providing workflow functions
-|[nablarch-workflow-tool                ](https://github.com/nablarch/nablarch-workflow-tool)|Tool to convert from [BPMN](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)2.0 definition to workflow data
+|[nablarch-workflow-tool                ](https://github.com/nablarch/nablarch-workflow-tool)|Tool to convert from BPMN2.0 definition to workflow data
 |[nablarch-workflow-sample              ](https://github.com/nablarch/nablarch-workflow-sample)|Sample of workflow
 
 
