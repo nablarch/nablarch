@@ -1,6 +1,10 @@
 # Nablarch Framework
 
 Nablarch is a middleware pattern based Java application framework.
+
+# Issue Tracking
+
+Report issues via the [Nablarch JIRA](https://nablarch.atlassian.net).
   
 # Modules
 The Nablarch Framework consists of features organized into about 83 modules. These modules are grouped into [Nablarch Core](#link1), [Nablarch Framework](#link2), 
