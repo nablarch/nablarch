@@ -70,6 +70,8 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)|Adaptors for JAX-RS impls
 |[nablarch-wmq-adaptor](https://github.com/nablarch/nablarch-wmq-adaptor)|Adaptor for WebSphere MQ 
 |[nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)|Adaptor for Log4j
+|[nablarch-slf4j-adaptor](https://github.com/nablarch/nablarch-slf4j-adaptor)|Adaptor for SLF4J
+|[nablarch-jboss-logging-adaptor](https://github.com/nablarch/nablarch-jboss-logging-adaptor)|Adaptor for JBoss Logging
 
 
 ### <a name ="link5">Nablarch Framework Examples
@@ -122,7 +124,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-biz-sample-all                  ](https://github.com/nablarch/nablarch-biz-sample-all)|Sample applications as follows <br>  * Password authentication <br>  * Extension of Validation <br>  * Search result <br>  * Extension of Data Formatter <br>  * File management with database <br>  * Captcha <br>  * Prepare user agent <br>  * HTML mail sending
 |[nablarch-smime-integration                  ](https://github.com/nablarch/nablarch-smime-integration)|Example of smime mail sending 
 |[nablarch-statistics-report                  ](https://github.com/nablarch/nablarch-statistics-report)|Example of Log Aggregation
-|[nablarch-messaging-simulator                  ](https://github.com/nablarch/nablarch-example-web)|Example of messaging simulator (stub or driver)
+|[nablarch-messaging-simulator                  ](https://github.com/nablarch/nablarch-messaging-simulator)|Example of messaging simulator (stub or driver)
 
 
 ### <a name ="link10">Misc
@@ -134,6 +136,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-ui-build-test-pj](https://github.com/nablarch/nablarch-ui-build-test-pj)|Test project for nablarch-plugins-bundle
 |[nablarch-plugins-bundle-test](https://github.com/nablarch/nablarch-plugins-bundle-test)|Test cases for nablarch-plugins-bundle
 |[nablarch-ui-development-template](https://github.com/nablarch/nablarch-ui-development-template)|Template for using nablarch-plugins-bundle
+|[nablarch-intellij-plugin](https://github.com/nablarch/nablarch-intellij-plugin)|Nablarch support plugin in IntelliJ IDEA
 |[nablarch-toolbox](https://github.com/nablarch/nablarch-toolbox)|Development tools
 |[sql-executor](https://github.com/nablarch/sql-executor)|SQL Executor tools
 |[nablarch-testing	](https://github.com/nablarch/nablarch-testing	)|	Application testing
