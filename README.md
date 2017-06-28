@@ -76,6 +76,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)|Adaptor for Log4j
 |[nablarch-slf4j-adaptor](https://github.com/nablarch/nablarch-slf4j-adaptor)|Adaptor for SLF4J
 |[nablarch-jboss-logging-adaptor](https://github.com/nablarch/nablarch-jboss-logging-adaptor)|Adaptor for JBoss Logging
+|[nablarch-doma-adaptor](https://github.com/nablarch/nablarch-doma-adaptor)|Adaptor for Doma
 
 
 ### <a name ="link5">Nablarch Framework Examples
