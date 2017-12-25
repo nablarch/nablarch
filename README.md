@@ -68,16 +68,17 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 
 ### <a name ="link4">Nablarch Adaptor
 
-|Module name|Description
-|:-----|:-----
-|[nablarch-router-adaptor](https://github.com/nablarch/nablarch-router-adaptor)|Adaptor for http-request-router
-|[nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)|Adaptors for JAX-RS impls
-|[nablarch-wmq-adaptor](https://github.com/nablarch/nablarch-wmq-adaptor)|Adaptor for WebSphere MQ 
-|[nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)|Adaptor for Log4j
-|[nablarch-slf4j-adaptor](https://github.com/nablarch/nablarch-slf4j-adaptor)|Adaptor for SLF4J
-|[nablarch-jboss-logging-adaptor](https://github.com/nablarch/nablarch-jboss-logging-adaptor)|Adaptor for JBoss Logging
-|[nablarch-doma-adaptor](https://github.com/nablarch/nablarch-doma-adaptor)|Adaptor for Doma
-
+| Module name                                                                                                    | Description                              |
+| :-----                                                                                                         | :-----                                   |
+| [nablarch-router-adaptor](https://github.com/nablarch/nablarch-router-adaptor)                                 | Adaptor for http-request-router          |
+| [nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)                                   | Adaptors for JAX-RS impls                |
+| [nablarch-wmq-adaptor](https://github.com/nablarch/nablarch-wmq-adaptor)                                       | Adaptor for WebSphere MQ                 |
+| [nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)                                   | Adaptor for Log4j                        |
+| [nablarch-slf4j-adaptor](https://github.com/nablarch/nablarch-slf4j-adaptor)                                   | Adaptor for SLF4J                        |
+| [nablarch-jboss-logging-adaptor](https://github.com/nablarch/nablarch-jboss-logging-adaptor)                   | Adaptor for JBoss Logging                |
+| [nablarch-doma-adaptor](https://github.com/nablarch/nablarch-doma-adaptor)                                     | Adaptor for Doma                         |
+| [nablarch-mail-sender-freemarker-adaptor](https://github.com/nablarch/nablarch-mail-sender-freemarker-adaptor) | Adaptor for freeMarker (E-Mail Template) |
+| [nablarch-mail-sender-thymeleaf-adaptor](https://github.com/nablarch/nablarch-mail-sender-thymeleaf-adaptor)   | Adaptor for thymeleaf (E-Mail Template)  |
 
 ### <a name ="link5">Nablarch Framework Examples
 
