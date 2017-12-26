@@ -77,8 +77,10 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-slf4j-adaptor](https://github.com/nablarch/nablarch-slf4j-adaptor)                                   | Adaptor for SLF4J                        |
 | [nablarch-jboss-logging-adaptor](https://github.com/nablarch/nablarch-jboss-logging-adaptor)                   | Adaptor for JBoss Logging                |
 | [nablarch-doma-adaptor](https://github.com/nablarch/nablarch-doma-adaptor)                                     | Adaptor for Doma                         |
-| [nablarch-mail-sender-freemarker-adaptor](https://github.com/nablarch/nablarch-mail-sender-freemarker-adaptor) | Adaptor for freeMarker (E-mail Template)  |
-| [nablarch-mail-sender-thymeleaf-adaptor](https://github.com/nablarch/nablarch-mail-sender-thymeleaf-adaptor)   | Adaptor for thymeleaf (E-mail Template)  |
+| [nablarch-mail-sender-freemarker-adaptor](https://github.com/nablarch/nablarch-mail-sender-freemarker-adaptor) | Adaptor for FreeMarker (E-mail Template) |
+| [nablarch-mail-sender-thymeleaf-adaptor](https://github.com/nablarch/nablarch-mail-sender-thymeleaf-adaptor)   | Adaptor for Thymeleaf (E-mail Template)  |
+| [nablarch-mail-sender-velocity-adaptor](https://github.com/nablarch/nablarch-mail-sender-velocity-adaptor)     | Adaptor for Velocity (E-mail Template)   |
+
 
 ### <a name ="link5">Nablarch Framework Examples
 
