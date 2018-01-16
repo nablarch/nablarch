@@ -150,7 +150,6 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-default-configuration](https://github.com/nablarch/nablarch-default-configuration)|Default configuration files
 |[nablarch-backward-compatibility	](https://github.com/nablarch/nablarch-backward-compatibility	)|	Assuring Nablarch's old version compatibility
 |[master	](https://github.com/nablarch/master	)|	Integrating several Gradle projects for developers
-|[nablarch-all-test	](https://github.com/nablarch/nablarch-all-test	)|	JUnit Tests for Nablarch
 |[nablarch-test-support	](https://github.com/nablarch/nablarch-test-support	)|	Test support library for Nablarch framework
 |[nablarch-test-support-hereis](https://github.com/nablarch/nablarch-test-support-hereis)|Test support library for Nablarch framework
 |[nablarch-integration-test	](https://github.com/nablarch/nablarch-integration-test	)|	JUnit Test for handler queues
