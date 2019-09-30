@@ -149,6 +149,8 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-toolbox](https://github.com/nablarch/nablarch-toolbox)|Development tools
 |[sql-executor](https://github.com/nablarch/sql-executor)|SQL Executor tools
 |[nablarch-testing	](https://github.com/nablarch/nablarch-testing	)|	Application testing
+|[nablarch-testing-jetty6](https://github.com/nablarch/nablarch-testing-jetty6	)|	Application testing with jetty6
+|[nablarch-testing-jetty9](https://github.com/nablarch/nablarch-testing-jetty9	)|	Application testing with jetty9
 |[nablarch-single-module-archetype](https://github.com/nablarch/nablarch-single-module-archetype)|Maven archetype
 |[nablarch-profiles](https://github.com/nablarch/nablarch-profiles)|Maven pom
 |[nablarch-default-configuration](https://github.com/nablarch/nablarch-default-configuration)|Default configuration files
