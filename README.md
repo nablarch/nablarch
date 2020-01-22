@@ -37,6 +37,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-fw-web-tag	](https://github.com/nablarch/nablarch-fw-web-tag	)|	JSP Custom Tag Library for Nablarch
 |[nablarch-fw-web-hotdeploy	](https://github.com/nablarch/nablarch-fw-web-hotdeploy	)|	Hot deploy
 |[nablarch-fw-web-extension	](https://github.com/nablarch/nablarch-fw-web-extension	)|	Web File uploading and downloading
+|[nablarch-fw-web-doublesubmit-jdbc	](https://github.com/nablarch/nablarch-fw-web-doublesubmit-jdbc	)|	Token manager  implementation using JDBC
 |[nablarch-fw-batch-ee	](https://github.com/nablarch/nablarch-fw-batch-ee	)|	JSR352 jBatch APIs
 |[nablarch-fw-jaxrs	](https://github.com/nablarch/nablarch-fw-jaxrs	)|	RESTful Web Services
 |[nablarch-fw-standalone	](https://github.com/nablarch/nablarch-fw-standalone	)|	Provide standalone application's entrypoint
