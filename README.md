@@ -34,12 +34,10 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-fw	](https://github.com/nablarch/nablarch-fw	)|	Nablarch Handlers
 |[nablarch-fw-web	](https://github.com/nablarch/nablarch-fw-web	)|	Basic web-oriented integration features
 |[nablarch-fw-web-dbstore	](https://github.com/nablarch/nablarch-fw-web-dbstore	)|	Session store implementation using JDBC
-|[nablarch-fw-web-redisstore	](https://github.com/nablarch/nablarch-fw-web-redisstore	)|	Session store implementation using Redis
 |[nablarch-fw-web-tag	](https://github.com/nablarch/nablarch-fw-web-tag	)|	JSP Custom Tag Library for Nablarch
 |[nablarch-fw-web-hotdeploy	](https://github.com/nablarch/nablarch-fw-web-hotdeploy	)|	Hot deploy
 |[nablarch-fw-web-extension	](https://github.com/nablarch/nablarch-fw-web-extension	)|	Web File uploading and downloading
 |[nablarch-fw-web-doublesubmit-jdbc	](https://github.com/nablarch/nablarch-fw-web-doublesubmit-jdbc	)|	Token manager  implementation using JDBC
-|[nablarch-fw-web-doublesubmit-redis	](https://github.com/nablarch/nablarch-fw-web-doublesubmit-redis	)|	Token manager  implementation using Redis
 |[nablarch-fw-batch-ee	](https://github.com/nablarch/nablarch-fw-batch-ee	)|	JSR352 jBatch APIs
 |[nablarch-fw-jaxrs	](https://github.com/nablarch/nablarch-fw-jaxrs	)|	RESTful Web Services
 |[nablarch-fw-standalone	](https://github.com/nablarch/nablarch-fw-standalone	)|	Provide standalone application's entrypoint
@@ -84,6 +82,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-mail-sender-thymeleaf-adaptor](https://github.com/nablarch/nablarch-mail-sender-thymeleaf-adaptor)   | Adaptor for Thymeleaf (E-mail Template)     |
 | [nablarch-mail-sender-velocity-adaptor](https://github.com/nablarch/nablarch-mail-sender-velocity-adaptor)     | Adaptor for Velocity (E-mail Template)      |
 | [nablarch-web-thymeleaf-adaptor](https://github.com/nablarch/nablarch-web-thymeleaf-adaptor)                   | Adaptor for Thymeleaf (for Web Application) |
+| [nablarch-redisstore-lettuce-adaptor](https://github.com/nablarch/nablarch-redisstore-lettuce-adaptor)         | Adaptor for Lettuce (for Redis session store) |
 
 
 ### <a name ="link5">Nablarch Framework Examples
