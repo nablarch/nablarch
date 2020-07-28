@@ -85,6 +85,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-mail-sender-velocity-adaptor](https://github.com/nablarch/nablarch-mail-sender-velocity-adaptor)     | Adaptor for Velocity (E-mail Template)      |
 | [nablarch-web-thymeleaf-adaptor](https://github.com/nablarch/nablarch-web-thymeleaf-adaptor)                   | Adaptor for Thymeleaf (for Web Application) |
 | [nablarch-redisstore-lettuce-adaptor](https://github.com/nablarch/nablarch-redisstore-lettuce-adaptor)         | Adaptor for Lettuce (for Redis session store) |
+| [nablarch-aws-xray-adaptor](https://github.com/nablarch/nablarch-aws-xray-adaptor)                             | Adaptor for AWS X-Ray                       |
 
 
 ### <a name ="link5">Nablarch Framework Examples
