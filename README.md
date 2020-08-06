@@ -86,6 +86,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-web-thymeleaf-adaptor](https://github.com/nablarch/nablarch-web-thymeleaf-adaptor)                   | Adaptor for Thymeleaf (for Web Application) |
 | [nablarch-redisstore-lettuce-adaptor](https://github.com/nablarch/nablarch-redisstore-lettuce-adaptor)         | Adaptor for Lettuce (for Redis session store) |
 | [nablarch-aws-xray-adaptor](https://github.com/nablarch/nablarch-aws-xray-adaptor)                             | Adaptor for AWS X-Ray                       |
+| [nablarch-micrometer-adaptor](https://github.com/nablarch/nablarch-micrometer-adaptor)                         | Adaptor for Micrometer                      |
 
 
 ### <a name ="link5">Nablarch Framework Examples
