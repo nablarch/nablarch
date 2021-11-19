@@ -168,7 +168,8 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-integration-test	](https://github.com/nablarch/nablarch-integration-test	)|	JUnit Test for handler queues
 |[nablarch-module-version](https://github.com/nablarch/nablarch-module-version)|Nablarch version management
 |[nablarch-gradle-plugin](https://github.com/nablarch/nablarch-gradle-plugin)|Gradle plugin for projects using Nablarch
-|[nablarch-unpublished-api-checker-findbugs](https://github.com/nablarch/nablarch-unpublished-api-checker-findbugs)|Detector plugin for Findbugs
+|[nablarch-unpublished-api-checker-findbugs](https://github.com/nablarch/nablarch-unpublished-api-checker-findbugs)|Detector plugin for FindBugs
+|[nablarch-unpublished-api-checker](https://github.com/nablarch/nablarch-unpublished-api-checker)|Detector plugin for SpotBugs
 
 
 
