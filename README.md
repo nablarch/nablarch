@@ -158,6 +158,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-testing-jetty6](https://github.com/nablarch/nablarch-testing-jetty6	)|	Application testing with jetty6
 |[nablarch-testing-jetty9](https://github.com/nablarch/nablarch-testing-jetty9	)|	Application testing with jetty9
 |[nablarch-testing-rest](https://github.com/nablarch/nablarch-testing-rest)|	Application testing for RESTful web service
+|[nablarch-testing-junit5](https://github.com/nablarch/nablarch-testing-junit5)|	Extensions for using the JUnit5 in the application testing
 |[nablarch-single-module-archetype](https://github.com/nablarch/nablarch-single-module-archetype)|Maven archetype
 |[nablarch-profiles](https://github.com/nablarch/nablarch-profiles)|Maven pom
 |[nablarch-default-configuration](https://github.com/nablarch/nablarch-default-configuration)|Default configuration files
@@ -168,6 +169,8 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 |[nablarch-integration-test	](https://github.com/nablarch/nablarch-integration-test	)|	JUnit Test for handler queues
 |[nablarch-module-version](https://github.com/nablarch/nablarch-module-version)|Nablarch version management
 |[nablarch-gradle-plugin](https://github.com/nablarch/nablarch-gradle-plugin)|Gradle plugin for projects using Nablarch
+|[nablarch-unpublished-api-checker-findbugs](https://github.com/nablarch/nablarch-unpublished-api-checker-findbugs)|Detector plugin for FindBugs
+|[nablarch-unpublished-api-checker](https://github.com/nablarch/nablarch-unpublished-api-checker)|Detector plugin for SpotBugs
 
 
 
