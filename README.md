@@ -82,15 +82,17 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-mail-sender-thymeleaf-adaptor](https://github.com/nablarch/nablarch-mail-sender-thymeleaf-adaptor)   | Adaptor for Thymeleaf (E-mail Template)       |
 | [nablarch-mail-sender-velocity-adaptor](https://github.com/nablarch/nablarch-mail-sender-velocity-adaptor)     | Adaptor for Velocity (E-mail Template)        |
 | [nablarch-web-thymeleaf-adaptor](https://github.com/nablarch/nablarch-web-thymeleaf-adaptor)                   | Adaptor for Thymeleaf (for Web Application)   |
-| [nablarch-redisstore-lettuce-adaptor](https://github.com/nablarch/nablarch-redisstore-lettuce-adaptor)         | Adaptor for Lettuce (for Redis session store) |
+| [nablarch-lettuce-adaptor](https://github.com/nablarch/nablarch-lettuce-adaptor)                               | Adaptor for Lettuce (for Redis session store) |
 | [nablarch-micrometer-adaptor](https://github.com/nablarch/nablarch-micrometer-adaptor)                         | Adaptor for Micrometer                        |
 | [slf4j-nablarch-adaptor](https://github.com/nablarch/slf4j-nablarch-adaptor)                                   | Adapter to use Nablarch Logger via SLF4J      |
+| [nablarch-jsr310-adaptor](https://github.com/nablarch/nablarch-jsr310-adaptor)                                 | Adapter for JSR310(Date and Time API)         |
 
 ### <a name ="link5">Nablarch Framework Examples
 
 | Module name                                                                                              | Description                                       |
 |:---------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
 | [nablarch-example-web](https://github.com/nablarch/nablarch-example-web)                                 | Example of web application                        |
+| [nablarch-example-thymeleaf-web](https://github.com/nablarch/nablarch-example-thymeleaf-web)             | Example of web application with Thymeleaf         |
 | [nablarch-example-batch-ee](https://github.com/nablarch/nablarch-example-batch-ee)                       | Example of JSR352 jBatch APIs                     |
 | [nablarch-example-batch](https://github.com/nablarch/nablarch-example-batch)                             | Example code of batch application                 |
 | [nablarch-example-mom-sync-receive](https://github.com/nablarch/nablarch-example-mom-sync-receive)       | Example of MOM (synchronous messaging receiving)  |
@@ -112,11 +114,11 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 
 ### <a name ="link7">Nablarch Workflow
 
-| Module name                                                                      | Description                                              |
-|:---------------------------------------------------------------------------------|:---------------------------------------------------------|
-| [nablarch-workflow](https://github.com/nablarch/nablarch-workflow)               | Providing workflow functions                             |
-| [nablarch-workflow-tool](https://github.com/nablarch/nablarch-workflow-tool)     | Tool to convert from BPMN2.0 definition to workflow data |
-| [nablarch-workflow-sample](https://github.com/nablarch/nablarch-workflow-sample) | Sample of workflow                                       |
+| Module name                                                                        | Description                                              |
+|:-----------------------------------------------------------------------------------|:---------------------------------------------------------|
+| [nablarch-workflow](https://github.com/nablarch/nablarch-workflow)                 | Providing workflow functions                             |
+| [nablarch-workflow-tool](https://github.com/nablarch/nablarch-workflow-tool)       | Tool to convert from BPMN2.0 definition to workflow data |
+| [nablarch-example-workflow](https://github.com/nablarch/nablarch-example-workflow) | Sample of workflow                                       |
 
 ### <a name ="link8">Nablarch Report
 
