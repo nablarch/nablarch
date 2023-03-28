@@ -58,6 +58,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-common-code-jdbc](https://github.com/nablarch/nablarch-common-code-jdbc)                         | Classification code manager using OTLT(One True Lookup Table)                          |
 | [nablarch-common-auth](https://github.com/nablarch/nablarch-common-auth)                                   | Authorization                                                                          |
 | [nablarch-common-auth-jdbc](https://github.com/nablarch/nablarch-common-auth-jdbc)                         | Authorization implementation using JDBC                                                |
+| [nablarch-common-auth-session](https://github.com/nablarch/nablarch-common-auth-session)                   | Authorization implementation using SessionStore                                        |
 | [nablarch-common-exclusivecontrol](https://github.com/nablarch/nablarch-common-exclusivecontrol)           | Locking                                                                                |
 | [nablarch-common-exclusivecontrol-jdbc](https://github.com/nablarch/nablarch-common-exclusivecontrol-jdbc) | Locking implementation using JDBC                                                      |
 | [nablarch-common-encryption](https://github.com/nablarch/nablarch-common-encryption)                       | Encrypting                                                                             |
