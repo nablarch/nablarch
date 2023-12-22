@@ -150,6 +150,7 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-testing](https://github.com/nablarch/nablarch-testing)                                                   | Application testing                                        |
 | [nablarch-testing-jetty6](https://github.com/nablarch/nablarch-testing-jetty6)                                     | Application testing with jetty6                            |
 | [nablarch-testing-jetty9](https://github.com/nablarch/nablarch-testing-jetty9)                                     | Application testing with jetty9                            |
+| [nablarch-testing-jetty12](https://github.com/nablarch/nablarch-testing-jetty12)                                   | Application testing with jetty12                           |
 | [nablarch-testing-rest](https://github.com/nablarch/nablarch-testing-rest)                                         | Application testing for RESTful web service                |
 | [nablarch-testing-junit5](https://github.com/nablarch/nablarch-testing-junit5)                                     | Extensions for using the JUnit5 in the application testing |
 | [nablarch-single-module-archetype](https://github.com/nablarch/nablarch-single-module-archetype)                   | Maven archetype                                            |
