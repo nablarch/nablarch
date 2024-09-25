@@ -129,7 +129,6 @@ The Nablarch Framework consists of features organized into many modules. These m
 | [nablarch-test-support-hereis](https://github.com/nablarch/nablarch-test-support-hereis)                           | Test support library for Nablarch framework                |
 | [nablarch-integration-test](https://github.com/nablarch/nablarch-integration-test)                                 | JUnit Test for handler queues                              |
 | [nablarch-gradle-plugin](https://github.com/nablarch/nablarch-gradle-plugin)                                       | Gradle plugin for projects using Nablarch                  |
-| [nablarch-unpublished-api-checker-findbugs](https://github.com/nablarch/nablarch-unpublished-api-checker-findbugs) | Detector plugin for FindBugs                               |
 | [nablarch-unpublished-api-checker](https://github.com/nablarch/nablarch-unpublished-api-checker)                   | Detector plugin for SpotBugs                               |
 
 ## License
