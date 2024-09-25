@@ -14,18 +14,18 @@ The Nablarch Framework consists of features organized into many modules. These m
 
 ### <a name ="link1">Nablarch Core
 
-| Module name                                                                            | Description                             |
-|:---------------------------------------------------------------------------------------|:----------------------------------------|
-| [nablarch-core](https://github.com/nablarch/nablarch-core)                             | Nablarch Core                           |
-| [nablarch-core-beans](https://github.com/nablarch/nablarch-core-beans)                 | JavaBeans Utilities                     |
-| [nablarch-core-repository](https://github.com/nablarch/nablarch-core-repository)       | Settings manager                        |
-| [nablarch-core-transaction](https://github.com/nablarch/nablarch-core-transaction)     | Transaction managers                    |
-| [nablarch-core-jdbc](https://github.com/nablarch/nablarch-core-jdbc)                   | JDBC Utilities                          |
-| [nablarch-core-message](https://github.com/nablarch/nablarch-core-message)             | Messages (Error Message, Warning, etc.) |
-| [nablarch-core-validation](https://github.com/nablarch/nablarch-core-validation)       | Input validation                        |
-| [nablarch-core-validation-ee](https://github.com/nablarch/nablarch-core-validation-ee) | Bean Validation                         |
-| [nablarch-core-dataformat](https://github.com/nablarch/nablarch-core-dataformat)       | File manager                            |
-| [nablarch-core-applog](https://github.com/nablarch/nablarch-core-applog)               | Logging                                 |
+| Module name                                                                            | Description                                  |
+|:---------------------------------------------------------------------------------------|:---------------------------------------------|
+| [nablarch-core](https://github.com/nablarch/nablarch-core)                             | Nablarch Core                                |
+| [nablarch-core-beans](https://github.com/nablarch/nablarch-core-beans)                 | JavaBeans Utilities                          |
+| [nablarch-core-repository](https://github.com/nablarch/nablarch-core-repository)       | Settings manager                             |
+| [nablarch-core-transaction](https://github.com/nablarch/nablarch-core-transaction)     | Transaction managers                         |
+| [nablarch-core-jdbc](https://github.com/nablarch/nablarch-core-jdbc)                   | JDBC Utilities                               |
+| [nablarch-core-message](https://github.com/nablarch/nablarch-core-message)             | Messages (Error Message, Warning, etc.)      |
+| [nablarch-core-validation](https://github.com/nablarch/nablarch-core-validation)       | Input validation                             |
+| [nablarch-core-validation-ee](https://github.com/nablarch/nablarch-core-validation-ee) | Jakarta Bean Validation-compliant validation |
+| [nablarch-core-dataformat](https://github.com/nablarch/nablarch-core-dataformat)       | File manager                                 |
+| [nablarch-core-applog](https://github.com/nablarch/nablarch-core-applog)               | Logging                                      |
 
 ### <a name ="link2">Nablarch Framework
 
