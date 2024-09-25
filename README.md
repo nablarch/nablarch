@@ -23,7 +23,7 @@ The Nablarch Framework consists of features organized into many modules. These m
 | [nablarch-core-jdbc](https://github.com/nablarch/nablarch-core-jdbc)                   | JDBC Utilities                          |
 | [nablarch-core-message](https://github.com/nablarch/nablarch-core-message)             | Messages (Error Message, Warning, etc.) |
 | [nablarch-core-validation](https://github.com/nablarch/nablarch-core-validation)       | Input validation                        |
-| [nablarch-core-validation-ee](https://github.com/nablarch/nablarch-core-validation-ee) | JSR-303 Bean Validation API             |
+| [nablarch-core-validation-ee](https://github.com/nablarch/nablarch-core-validation-ee) | Bean Validation                         |
 | [nablarch-core-dataformat](https://github.com/nablarch/nablarch-core-dataformat)       | File manager                            |
 | [nablarch-core-applog](https://github.com/nablarch/nablarch-core-applog)               | Logging                                 |
 
@@ -34,11 +34,11 @@ The Nablarch Framework consists of features organized into many modules. These m
 | [nablarch-fw](https://github.com/nablarch/nablarch-fw)                                             | Nablarch Handlers                                |
 | [nablarch-fw-web](https://github.com/nablarch/nablarch-fw-web)                                     | Basic web-oriented integration features          |
 | [nablarch-fw-web-dbstore](https://github.com/nablarch/nablarch-fw-web-dbstore)                     | Session store implementation using JDBC          |
-| [nablarch-fw-web-tag](https://github.com/nablarch/nablarch-fw-web-tag)                             | JSP Custom Tag Library for Nablarch              |
+| [nablarch-fw-web-tag](https://github.com/nablarch/nablarch-fw-web-tag)                             | Jakarta Server Pages Custom Tag Library          |
 | [nablarch-fw-web-hotdeploy](https://github.com/nablarch/nablarch-fw-web-hotdeploy)                 | Hot deploy                                       |
 | [nablarch-fw-web-extension](https://github.com/nablarch/nablarch-fw-web-extension)                 | Web File uploading and downloading               |
 | [nablarch-fw-web-doublesubmit-jdbc](https://github.com/nablarch/nablarch-fw-web-doublesubmit-jdbc) | Token manager  implementation using JDBC         |
-| [nablarch-fw-batch-ee](https://github.com/nablarch/nablarch-fw-batch-ee)                           | JSR352 jBatch APIs                               |
+| [nablarch-fw-batch-ee](https://github.com/nablarch/nablarch-fw-batch-ee)                           | Jakarta Batch-compliant batch application        |
 | [nablarch-fw-jaxrs](https://github.com/nablarch/nablarch-fw-jaxrs)                                 | RESTful Web Services                             |
 | [nablarch-fw-standalone](https://github.com/nablarch/nablarch-fw-standalone)                       | Provide standalone application's entrypoint      |
 | [nablarch-fw-batch](https://github.com/nablarch/nablarch-fw-batch)                                 | Basic handlers and actions for batch application |
@@ -71,7 +71,7 @@ The Nablarch Framework consists of features organized into many modules. These m
 | Module name                                                                                                    | Description                                   |
 |:---------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
 | [nablarch-router-adaptor](https://github.com/nablarch/nablarch-router-adaptor)                                 | Adaptor for http-request-router               |
-| [nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)                                   | Adaptors for JAX-RS impls                     |
+| [nablarch-jaxrs-adaptor](https://github.com/nablarch/nablarch-jaxrs-adaptor)                                   | Adaptors for Jakarta RESTful Web Services     |
 | [nablarch-wmq-adaptor](https://github.com/nablarch/nablarch-wmq-adaptor)                                       | Adaptor for WebSphere MQ                      |
 | [nablarch-log4j-adaptor](https://github.com/nablarch/nablarch-log4j-adaptor)                                   | Adaptor for Log4j                             |
 | [nablarch-slf4j-adaptor](https://github.com/nablarch/nablarch-slf4j-adaptor)                                   | Adaptor for SLF4J                             |
@@ -88,21 +88,21 @@ The Nablarch Framework consists of features organized into many modules. These m
 
 ### <a name ="link5">Nablarch Framework Examples
 
-| Module name                                                                                              | Description                                       |
-|:---------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [nablarch-example-web](https://github.com/nablarch/nablarch-example-web)                                 | Example of web application                        |
-| [nablarch-example-thymeleaf-web](https://github.com/nablarch/nablarch-example-thymeleaf-web)             | Example of web application with Thymeleaf         |
-| [nablarch-example-batch-ee](https://github.com/nablarch/nablarch-example-batch-ee)                       | Example of JSR352 jBatch APIs                     |
-| [nablarch-example-batch](https://github.com/nablarch/nablarch-example-batch)                             | Example code of batch application                 |
-| [nablarch-example-mom-sync-receive](https://github.com/nablarch/nablarch-example-mom-sync-receive)       | Example of MOM (synchronous messaging receiving)  |
-| [nablarch-example-mom-sync-send-batch](https://github.com/nablarch/nablarch-example-mom-sync-send-batch) | Example of MOM (synchronous messaging sending)    |
-| [nablarch-example-mom-delayed-send](https://github.com/nablarch/nablarch-example-mom-delayed-send)       | Example of MOM (asynchronous messaging sending)   |
-| [nablarch-example-mom-delayed-receive](https://github.com/nablarch/nablarch-example-mom-delayed-receive) | Example of MOM (asynchronous messaging receiving) |
-| [nablarch-example-mom-testing-common](https://github.com/nablarch/nablarch-example-mom-testing-common)   | Example of MOM (common function)                  |
-| [nablarch-example-http-messaging](https://github.com/nablarch/nablarch-example-http-messaging)           | Example of HTTP Messaging (receiving)             |
-| [nablarch-example-http-messaging-send](https://github.com/nablarch/nablarch-example-http-messaging-send) | Example of HTTP Messaging (sending)               |
-| [nablarch-example-rest](https://github.com/nablarch/nablarch-example-rest)                               | Example of RESTful Web Services                   |
-| [nablarch-example-db-queue](https://github.com/nablarch/nablarch-example-db-queue)                       | Example of database as queue                      |
+| Module name                                                                                              | Description                                           |
+|:---------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
+| [nablarch-example-web](https://github.com/nablarch/nablarch-example-web)                                 | Example of web application                            |
+| [nablarch-example-thymeleaf-web](https://github.com/nablarch/nablarch-example-thymeleaf-web)             | Example of web application with Thymeleaf             |
+| [nablarch-example-batch-ee](https://github.com/nablarch/nablarch-example-batch-ee)                       | Example of Jakarta Batch-compliant batch application  |
+| [nablarch-example-batch](https://github.com/nablarch/nablarch-example-batch)                             | Example code of batch application                     |
+| [nablarch-example-mom-sync-receive](https://github.com/nablarch/nablarch-example-mom-sync-receive)       | Example of MOM (synchronous messaging receiving)      |
+| [nablarch-example-mom-sync-send-batch](https://github.com/nablarch/nablarch-example-mom-sync-send-batch) | Example of MOM (synchronous messaging sending)        |
+| [nablarch-example-mom-delayed-send](https://github.com/nablarch/nablarch-example-mom-delayed-send)       | Example of MOM (asynchronous messaging sending)       |
+| [nablarch-example-mom-delayed-receive](https://github.com/nablarch/nablarch-example-mom-delayed-receive) | Example of MOM (asynchronous messaging receiving)     |
+| [nablarch-example-mom-testing-common](https://github.com/nablarch/nablarch-example-mom-testing-common)   | Example of MOM (common function)                      |
+| [nablarch-example-http-messaging](https://github.com/nablarch/nablarch-example-http-messaging)           | Example of HTTP Messaging (receiving)                 |
+| [nablarch-example-http-messaging-send](https://github.com/nablarch/nablarch-example-http-messaging-send) | Example of HTTP Messaging (sending)                   |
+| [nablarch-example-rest](https://github.com/nablarch/nablarch-example-rest)                               | Example of RESTful Web Services                       |
+| [nablarch-example-db-queue](https://github.com/nablarch/nablarch-example-db-queue)                       | Example of database as queue                          |
 
 ### <a name ="link6">Nablarch Implementation Examples Per Use Cases
 
