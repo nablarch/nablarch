@@ -8,9 +8,9 @@ Report issues via the [Nablarch JIRA](https://nablarch.atlassian.net).
   
 ## Modules
 
-The Nablarch Framework consists of features organized into about 83 modules. These modules are grouped into [Nablarch Core](#link1), [Nablarch Framework](#link2),
-[Nablarch Common Component](#link3), [Nablarch Adaptor](#link4), [Nablarch Framework Examples](#link5), [Nablarch ETL Foundation](#link6), [Nablarch Workflow](#link7),
-[Nablarch Report](#link8), [Nablarch Example Implementations](#link9), [Misc](#link10), as shown in the following tables.
+The Nablarch Framework consists of features organized into many modules. These modules are grouped into [Nablarch Core](#link1), [Nablarch Framework](#link2),
+[Nablarch Common Component](#link3), [Nablarch Adaptor](#link4), [Nablarch Framework Examples](#link5),
+[Nablarch Example Implementations](#link6), [Misc](#link7), as shown in the following tables.
 
 ### <a name ="link1">Nablarch Core
 
@@ -104,52 +104,21 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-example-rest](https://github.com/nablarch/nablarch-example-rest)                               | Example of RESTful Web Services                   |
 | [nablarch-example-db-queue](https://github.com/nablarch/nablarch-example-db-queue)                       | Example of database as queue                      |
 
-### <a name ="link6">Nablarch ETL Foundation
+### <a name ="link6">Nablarch Implementation Examples Per Use Cases
 
-| Module name                                                                        | Description                              |
-|:-----------------------------------------------------------------------------------|:-----------------------------------------|
-| [nablarch-etl](https://github.com/nablarch/nablarch-etl)                           | ETL(Extract, transform, load) processing |
-| [nablarch-etl-maven-plugin](https://github.com/nablarch/nablarch-etl-maven-plugin) | Generator of ETL processing config file  |
+| Module name                                                                    | Description                           |
+|:-------------------------------------------------------------------------------|:--------------------------------------|
+| [nablarch-biz-sample-all](https://github.com/nablarch/nablarch-biz-sample-all) | Implementation examples per use cases |
 
-### <a name ="link7">Nablarch Workflow
-
-| Module name                                                                        | Description                                              |
-|:-----------------------------------------------------------------------------------|:---------------------------------------------------------|
-| [nablarch-workflow](https://github.com/nablarch/nablarch-workflow)                 | Providing workflow functions                             |
-| [nablarch-workflow-tool](https://github.com/nablarch/nablarch-workflow-tool)       | Tool to convert from BPMN2.0 definition to workflow data |
-| [nablarch-example-workflow](https://github.com/nablarch/nablarch-example-workflow) | Sample of workflow                                       |
-
-### <a name ="link8">Nablarch Report
-
-| Module name                                                                  | Description               |
-|:-----------------------------------------------------------------------------|:--------------------------|
-| [nablarch-report](https://github.com/nablarch/nablarch-report)               | Generate pdf files        |
-| [nablarch-report-sample](https://github.com/nablarch/nablarch-report-sample) | Example of generating pdf |
-
-### <a name ="link9">Nablarch Example Implementations
-
-| Module name                                                                              | Description                                                                                                                                                                                                                                                |
-|:-----------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [nablarch-biz-sample-all](https://github.com/nablarch/nablarch-biz-sample-all)           | Sample applications as follows <br> * Password authentication <br> * Extension of Validation <br> * Search result <br> * Extension of Data Formatter <br> * File management with database <br> * Captcha <br> * Prepare user agent <br> * HTML mail sending|
-| [nablarch-smime-integration](https://github.com/nablarch/nablarch-smime-integration)     | Example of smime mail sending                                                                                                                                                                                                                              |
-| [nablarch-statistics-report](https://github.com/nablarch/nablarch-statistics-report)     | Example of Log Aggregation                                                                                                                                                                                                                                 |
-| [nablarch-messaging-simulator](https://github.com/nablarch/nablarch-messaging-simulator) | Example of messaging simulator (stub or driver)                                                                                                                                                                                                            |
-
-### <a name ="link10">Misc
+### <a name ="link7">Misc
 
 | Module name                                                                                                        | Description                                                |
 |:-------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 | [nablarch-document](https://github.com/nablarch/nablarch-document)                                                 | Nablarch document sourcecode(sphinx)                       |
-| [nablarch-plugins-bundle](https://github.com/nablarch/nablarch-plugins-bundle)                                     | Framework for web application with easy development        |
-| [nablarch-ui-build-test-pj](https://github.com/nablarch/nablarch-ui-build-test-pj)                                 | Test project for nablarch-plugins-bundle                   |
-| [nablarch-plugins-bundle-test](https://github.com/nablarch/nablarch-plugins-bundle-test)                           | Test cases for nablarch-plugins-bundle                     |
-| [nablarch-ui-development-template](https://github.com/nablarch/nablarch-ui-development-template)                   | Template for using nablarch-plugins-bundle                 |
 | [nablarch-intellij-plugin](https://github.com/nablarch/nablarch-intellij-plugin)                                   | Nablarch support plugin in IntelliJ IDEA                   |
 | [nablarch-toolbox](https://github.com/nablarch/nablarch-toolbox)                                                   | Development tools                                          |
 | [sql-executor](https://github.com/nablarch/sql-executor)                                                           | SQL Executor tools                                         |
 | [nablarch-testing](https://github.com/nablarch/nablarch-testing)                                                   | Application testing                                        |
-| [nablarch-testing-jetty6](https://github.com/nablarch/nablarch-testing-jetty6)                                     | Application testing with jetty6                            |
-| [nablarch-testing-jetty9](https://github.com/nablarch/nablarch-testing-jetty9)                                     | Application testing with jetty9                            |
 | [nablarch-testing-jetty12](https://github.com/nablarch/nablarch-testing-jetty12)                                   | Application testing with jetty12                           |
 | [nablarch-testing-rest](https://github.com/nablarch/nablarch-testing-rest)                                         | Application testing for RESTful web service                |
 | [nablarch-testing-junit5](https://github.com/nablarch/nablarch-testing-junit5)                                     | Extensions for using the JUnit5 in the application testing |
@@ -157,11 +126,9 @@ The Nablarch Framework consists of features organized into about 83 modules. The
 | [nablarch-profiles](https://github.com/nablarch/nablarch-profiles)                                                 | Maven pom                                                  |
 | [nablarch-default-configuration](https://github.com/nablarch/nablarch-default-configuration)                       | Default configuration files                                |
 | [nablarch-backward-compatibility](https://github.com/nablarch/nablarch-backward-compatibility)                     | Assuring Nablarch's old version compatibility              |
-| [master](https://github.com/nablarch/master)                                                                       | Integrating several Gradle projects for developers         |
 | [nablarch-test-support](https://github.com/nablarch/nablarch-test-support)                                         | Test support library for Nablarch framework                |
 | [nablarch-test-support-hereis](https://github.com/nablarch/nablarch-test-support-hereis)                           | Test support library for Nablarch framework                |
 | [nablarch-integration-test](https://github.com/nablarch/nablarch-integration-test)                                 | JUnit Test for handler queues                              |
-| [nablarch-module-version](https://github.com/nablarch/nablarch-module-version)                                     | Nablarch version management                                |
 | [nablarch-gradle-plugin](https://github.com/nablarch/nablarch-gradle-plugin)                                       | Gradle plugin for projects using Nablarch                  |
 | [nablarch-unpublished-api-checker-findbugs](https://github.com/nablarch/nablarch-unpublished-api-checker-findbugs) | Detector plugin for FindBugs                               |
 | [nablarch-unpublished-api-checker](https://github.com/nablarch/nablarch-unpublished-api-checker)                   | Detector plugin for SpotBugs                               |
