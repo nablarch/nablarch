@@ -117,6 +117,7 @@ The Nablarch Framework consists of features organized into many modules. These m
 | [nablarch-intellij-plugin](https://github.com/nablarch/nablarch-intellij-plugin)                                   | Nablarch support plugin in IntelliJ IDEA                   |
 | [nablarch-toolbox](https://github.com/nablarch/nablarch-toolbox)                                                   | Development tools                                          |
 | [sql-executor](https://github.com/nablarch/sql-executor)                                                           | SQL Executor tools                                         |
+| [nablarch-openapi-generator](https://github.com/nablarch/nablarch-openapi-generator)                               | OpenAPI Generator for Nablarch                             |
 | [nablarch-testing](https://github.com/nablarch/nablarch-testing)                                                   | Application testing                                        |
 | [nablarch-testing-jetty12](https://github.com/nablarch/nablarch-testing-jetty12)                                   | Application testing with jetty12                           |
 | [nablarch-testing-rest](https://github.com/nablarch/nablarch-testing-rest)                                         | Application testing for RESTful web service                |
